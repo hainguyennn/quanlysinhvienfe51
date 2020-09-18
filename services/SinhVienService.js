@@ -32,4 +32,10 @@ var SinhVienService = function(){
         })
         return promise;
     }
+
+    // VD: Tính năng tìm kiếm sinh viên
+    this.timKiemSinhVien = function(keyword){
+        console.log('Chức năng tìm kiếm sinh viên');
+        return '';
+    }
 }
